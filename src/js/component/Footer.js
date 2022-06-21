@@ -1,7 +1,7 @@
 import React from 'react';
 const Footer = (props) => {
 	return (
-		<div className="text-center text-lg-start text-white" style={FooterStyle}>
+		<div className="text-center text-lg-start text-white sticky-bottom" style={FooterStyle}>
 				<div
 				className="d-flex justify-content-between p-2">
 				<div className="me-5">
@@ -37,7 +37,7 @@ const Footer = (props) => {
 								<a href="https://stackoverflow.com/" className="text-white">stackoverflow</a>
 							</p>
 						</div>
-						<div className="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+						<div className="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4 ">
 							<h6 className="text-uppercase fw-bold">Contacto</h6>
 							<hr
 								className="mb-4 mt-0 d-inline-block mx-auto"
