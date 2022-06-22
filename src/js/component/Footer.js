@@ -18,7 +18,7 @@ const Footer = (props) => {
 				<div className="container text-center text-md-start mt-2">
 					<div className="row mt-2">
 						
-						<div className="col-md-3 col-lg-2 col-xl-2 mx-auto mb-2">
+						<div className="col-md-3 col-lg-2 col-xl-2 mx-auto mb-2 d-none d-lg-block">
 							<h6 className="text-uppercase fw-bold">Tecnologías</h6>
 							<hr
 								className="mb-4 mt-0 d-inline-block mx-auto"

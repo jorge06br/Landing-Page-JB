@@ -20,7 +20,7 @@ const CardData = () => {
     },
     {
       Title: "Perro",
-      BtnLabel: "Ver mas perros",
+      BtnLabel: "Ver mas Perros",
       ImgUrl:
         " https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Poligraf_Poligrafovich.JPG/800px-Poligraf_Poligrafovich.JPG",
       Description:
@@ -28,7 +28,7 @@ const CardData = () => {
     },
     {
       Title: "Mono",
-      BtnLabel: "Ver mas monos",
+      BtnLabel: "Ver mas Monos",
       ImgUrl:
         "https://upload.wikimedia.org/wikipedia/commons/4/40/Portrait_of_a_father.jpg",
       Description:
@@ -36,13 +36,13 @@ const CardData = () => {
     },
   ];
   const getcardinfo = cardinfo.map((info, i) => (
-    <div className="card" key={i}>
+    <div className="card  m-2 border rounded-3 " key={i}>
       <img
         className="card-img-top cardStyle"
         src={info.ImgUrl}
         alt="Card image cap"
       />
-      <div className="card-body flex-column d-flex">
+      <div className="card-body flex-column d-flex ">
         <h5 className="card-title">{info.Title} </h5>
         <p className="card-text">{info.Description}</p>
         <a href={info.BtnURL} className="btn btn-primary mt-auto">

@@ -10,9 +10,9 @@ const Home = () => {
     return (
         <div className="">
             <Navbar/>
-			<div className="container-fluid"> 
+			<div className="container"> 
             <Jumbotron/>
-            <div className="card-group mx-5">                
+            <div className="container card-group  p-0">                
             <CardData/>
             </div>
 			</div>
